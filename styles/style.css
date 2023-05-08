@@ -48,7 +48,7 @@ a{
 h1.header_title{
   width: 730px;
   line-height: 96px;
-  font-size: 102px; 
+  font-size: 102px;
   font-weight: 600;
   z-index: 2;
 }
@@ -113,9 +113,6 @@ h2.header_subtitle{
 
 .margins{
   margin-bottom: 30px;
-}
-
-.two-columns_paragraph{
 }
 
 .two-columns_paragraph p{
@@ -332,14 +329,6 @@ h1.footer_author{
 
 h1.footer_author::before{
   content:'\A9';
-}
-
-.footer__colunmn_info{
-
-}
-
-.footer__colunmn_content-social{
-
 }
 
 h1.footer__colunmn-heading{
