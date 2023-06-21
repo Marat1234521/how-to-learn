@@ -1,5 +1,4 @@
 @import url(../blocks/cards/cards.css);
-@import url(../blocks/cards/__title/cards__title.css);
 
 .cards__title{
     margin: 0;

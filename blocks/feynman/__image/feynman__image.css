@@ -1,5 +1,4 @@
 @import url(../blocks/feynman/feynman.css);
-@import url(../blocks/feynman/__image/feynman__image.css);
 
 .feynman__image{
     position: absolute;
