@@ -1,5 +1,4 @@
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__colunmns/footer__colunmns.css);
 
 .footer__colunmns{
     position: relative;

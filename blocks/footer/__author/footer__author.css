@@ -1,5 +1,4 @@
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__author/footer__author.css);
 
 .footer__author{
     margin: 0;

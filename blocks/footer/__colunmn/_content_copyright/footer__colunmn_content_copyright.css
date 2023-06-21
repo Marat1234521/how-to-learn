@@ -1,5 +1,4 @@
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__colunmn/_content_copyright/footer__colunmn_content_copyright.css);
 
 .footer__colunmn_content_copyright{
     flex-basis: 711px;
