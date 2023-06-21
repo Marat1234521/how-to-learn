@@ -1,6 +1,3 @@
-@import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__link/resources__link.css);
-
 .resources__link{
     margin: 0;
     width: 270px;
