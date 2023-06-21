@@ -1,0 +1,15 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+
+.header__subtitle{
+    margin: 0;
+    max-width: 388px;
+    width: 100%;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+  }

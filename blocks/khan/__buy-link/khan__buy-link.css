@@ -1,0 +1,11 @@
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
+
+.khan__buy-link{
+    margin: 0;
+    margin-left: 48px;
+    font-weight: normal;
+    line-height: 42px;
+    font-size: 30px;
+    text-decoration: none
+}

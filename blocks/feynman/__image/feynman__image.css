@@ -1,0 +1,11 @@
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__image/feynman__image.css);
+
+.feynman__image{
+    position: absolute;
+    height: 637px;
+    width: 867px;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }

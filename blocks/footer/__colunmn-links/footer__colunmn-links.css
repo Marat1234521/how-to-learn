@@ -1,0 +1,9 @@
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__colunmn-links/footer__colunmn-links.css);
+
+.footer__colunmn-links{
+    margin: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }

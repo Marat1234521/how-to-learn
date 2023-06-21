@@ -1,0 +1,14 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+
+.header__title{
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 64px;
+    width: 730px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: 600;
+    z-index: 2;
+  }

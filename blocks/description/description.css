@@ -1,0 +1,9 @@
+@import url(../blocks/description/description.css);
+
+.description{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }

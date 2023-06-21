@@ -1,0 +1,9 @@
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__author/khan__author.css);
+
+.khan__author{
+    margin: 0;
+    font-weight: normal;
+    line-height: 42px;
+    font-size: 30px;
+  }

@@ -1,0 +1,9 @@
+@import url(../blocks/khan/khan.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+
+.khan__book-container{
+    margin: 0;
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+  }

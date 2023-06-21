@@ -1,0 +1,12 @@
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__colunmns/footer__colunmns.css);
+
+.footer__colunmns{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
