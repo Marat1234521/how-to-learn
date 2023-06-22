@@ -1,10 +1,13 @@
-@import url(../keyframes/rotation.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/keyframes/rotation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/description/description.css);
@@ -53,10 +56,11 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__colunmns/footer__colunmns.css);
-@import url(../blocks/footer/__colunmn/_content_copyright/footer__colunmn_content_copyright.css);
+@import url(../blocks/footer/__colunmn/_content/footer__colunmn_content_copyright.css);
 @import url(../blocks/footer/__colunmn-links/footer__colunmn-links.css);
 @import url(../blocks/footer/__colunmn-link/footer__colunmn-link.css);
 @import url(../blocks/footer/__colunmn-heading/footer__colunmn-heading.css);
@@ -64,30 +68,16 @@
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/page/page.css);
 
-a{
-    color: #2f80ed;
-    transition: color 1s linear 0.5s;
-    opacity: 1;
-    text-decoration: none;
-  }
+.header__link, .feynman__link, .khan__buy-link {
+  color: #2f80ed;
+}
+
+.header__link, .feynman__link, .khan__buy-link, .resources__link, .footer__colunmn-link {
+  transition: color 1s linear 0.5s;
+  opacity: 1;
+  text-decoration: none;
+}
   
-  a:hover{
-    opacity: 0.5;
-  }
-  
-  .logo{
-    height: 32px;
-    width: 228px;
-  }
-  
-  .logo_place_header{
-    position: absolute;
-    top: 30px;
-    left: 64px;
-  }
-  
-  
-  
-  .logo_place_footer{
-    margin: 0;
-  }
+.header__link:hover, .feynman__link:hover, .khan__buy-link:hover, .resources__link:hover, .footer__colunmn-link:hover {
+  opacity: 0.5;
+}
