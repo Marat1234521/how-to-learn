@@ -1,10 +1,11 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/keyframes/rotation.css);
+@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
+@import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
@@ -50,6 +51,7 @@
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
@@ -67,17 +69,3 @@
 @import url(../blocks/footer/__colunmn-social-icon/footer__colunmn-social-icon.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/page/page.css);
-
-.header__link, .feynman__link, .khan__buy-link {
-  color: #2f80ed;
-}
-
-.header__link, .feynman__link, .khan__buy-link, .resources__link, .footer__colunmn-link {
-  transition: color 1s linear 0.5s;
-  opacity: 1;
-  text-decoration: none;
-}
-  
-.header__link:hover, .feynman__link:hover, .khan__buy-link:hover, .resources__link:hover, .footer__colunmn-link:hover {
-  opacity: 0.5;
-}
